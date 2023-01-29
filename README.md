@@ -1,0 +1,2 @@
+# car-game
+ A car game created using HTML, CSS and JavaScript. The goal of the game is to drive the car and avoid collision with the boundaries. The game features a responsive design, smooth animations, and a user-friendly interface. Players can keep track of their scores and compete with others by logging in and signing up. The game is built with the latest web technologies to ensure an enjoyable and seamless gaming experience.
