@@ -48,6 +48,9 @@ function endGame() {
     startScreen.classList.remove('hide');
     window.location.href = 'leaderboard.html';
 }
+document.querySelector('.leaderboard').addEventListener('click', () =>{
+    window.location.href = 'leaderboard.html';
+})
 function moveCar(car) {
     let other = document.querySelectorAll('.other');
     other.forEach(function (item) {
