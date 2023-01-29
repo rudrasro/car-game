@@ -96,13 +96,13 @@
         for (let i = 0; i < 5; i++) {
             let player = {
                 name: 'Player ' + (i + 1),
-                score: Math.floor(Math.random() * 100),
+                score: Math.floor(Math.random() * 3000),
                 highScore: Math.floor(Math.random() * 3000)
             };
             gameLeaderBoard.push(player);
         }
 
-        gameLeaderBoard.sort((a, b) => b.highScore - a.highScore);
+        gameLeaderBoard.sort((a, b) => b.score - a.score);
 
         let table = document.createElement('table');
         table.setAttribute('id', 'leaderboard');
